@@ -61,10 +61,10 @@ void Ex4(void) {
 	people_bop_struct[3] = {"Hoppy Hipman",	"Analyst Trainee",   "Charlie ", 1};
 	people_bop_struct[4] = {"Pat Hand",	"TeamLead",          "LOOPY",	 2};
 
-	std::cout << "Benevolent Order of Programmers Report"			<< std::endl;
-	std::cout << "a. display by name \tb. display by title"			<< std::endl;
-	std::cout << "c. display by bopname \td. display by preference" 	<< std::endl;
-	std::cout << "q. quit"							<< std::endl;
+	std::cout << "Benevolent Order of Programmers Report"		<< std::endl;
+	std::cout << "a. display by name \tb. display by title"		<< std::endl;
+	std::cout << "c. display by bopname \td. display by preference" << std::endl;
+	std::cout << "q. quit"						<< std::endl;
 	std::cout << "Enter your choice: ";
 	
 	while (std::cin >> choice && choice != 'q') {
