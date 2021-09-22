@@ -9,9 +9,9 @@ const unsigned int	strsize = 30;
 const unsigned int	size_struct = 5;
 
 struct bop {
-	char			fullname[strsize];
-	char			title[strsize];
-	char			bopname[strsize];
+	char		fullname[strsize];
+	char		title[strsize];
+	char		bopname[strsize];
 	unsigned int	preference; // 0 = fullname, 1 = title, 2 = bopname
 };
 
