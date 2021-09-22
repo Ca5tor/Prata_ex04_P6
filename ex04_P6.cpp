@@ -53,20 +53,20 @@ Bye!
 void Ex4(void) {
 	struct bop			people_bop_struct[size_struct];
 	char				choice = ' ';
-	unsigned int		i;
+	unsigned int			i;
 
-	people_bop_struct[0] = {"Wimp Macho",	"Middle Progammer",	 "Lucky ",	 0};
+	people_bop_struct[0] = {"Wimp Macho",	"Middle Progammer",  "Lucky ",	 0};
 	people_bop_struct[1] = {"Raki Rhodes",	"Junior Programmer", "Milo ",	 1};
 	people_bop_struct[2] = {"Celia Laiter",	"Senior Programmer", "MIPS",	 2};
-	people_bop_struct[3] = {"Hoppy Hipman",	"Analyst Trainee",	 "Charlie ", 1};
-	people_bop_struct[4] = {"Pat Hand",		"TeamLead",			 "LOOPY",	 2};
+	people_bop_struct[3] = {"Hoppy Hipman",	"Analyst Trainee",   "Charlie ", 1};
+	people_bop_struct[4] = {"Pat Hand",	"TeamLead",          "LOOPY",	 2};
 
 	std::cout << "Benevolent Order of Programmers Report"			<< std::endl;
 	std::cout << "a. display by name \tb. display by title"			<< std::endl;
-	std::cout << "c. display by bopname \td. display by preference" << std::endl;
-	std::cout << "q. quit"											<< std::endl;
+	std::cout << "c. display by bopname \td. display by preference" 	<< std::endl;
+	std::cout << "q. quit"							<< std::endl;
 	std::cout << "Enter your choice: ";
-	//Äîïèëèòü ââîä 1 ñèìâîëà
+	
 	while (std::cin >> choice && choice != 'q') {
 		i = 0;
 		if (choice == 'a')
